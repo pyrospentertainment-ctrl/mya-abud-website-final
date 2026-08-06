@@ -3,106 +3,166 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <title>Mya Abud | Sitio oficial</title>
-  <meta name="description" content="Sitio oficial de Mya Abud. Música, videos, fotografías y acceso exclusivo.">
-  <meta property="og:title" content="Mya Abud | Sitio oficial">
-  <meta property="og:description" content="Libertad, poder y deseo. Descubre la música y el universo de Mya Abud.">
-  <meta property="og:image" content="assets/images/og-image.jpg">
-  <meta name="theme-color" content="#09090b">
+  <meta name="theme-color" content="#050505">
+  <title>Mya Abud | Sitio Oficial</title>
+  <meta name="description" content="Sitio oficial de Mya Abud. Música, videos, fotografía, filosofía y acceso a su mundo privado.">
+  <link rel="canonical" href="https://myaabud.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Mya Abud | Sitio Oficial">
+  <meta property="og:description" content="Freedom is not an act. It is a way of existing.">
+  <meta property="og:url" content="https://myaabud.com/">
+  <meta property="og:image" content="https://myaabud.com/assets/images/private.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Mya Abud | Sitio Oficial">
+  <meta name="twitter:description" content="Freedom is not an act. It is a way of existing.">
+  <meta name="twitter:image" content="https://myaabud.com/assets/images/private.jpg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@1,500;1,600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"MusicGroup",
+    "name":"Mya Abud",
+    "url":"https://myaabud.com",
+    "sameAs":[
+      "https://open.spotify.com/artist/33obuCE6Ntee0KsfobIzoA",
+      "https://music.apple.com/us/artist/mya-abud/1667996449",
+      "https://www.instagram.com/myaabudoficial/",
+      "https://www.tiktok.com/myaabudoficial/",
+      "https://www.youtube.com/@myaabudoficial/videos",
+      "https://onlyfans.com/myaabud"
+    ],
+    "email":"myaabudoficial@gmail.com"
+  }
+  </script>
 </head>
 <body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
   <div class="grain" aria-hidden="true"></div>
-  <header class="topbar">
-    <a class="brand" href="#inicio">MYA ABUD</a>
-    <button class="menu" aria-expanded="false" aria-controls="nav">MENÚ</button>
-    <nav id="nav" class="nav" aria-label="Navegación principal">
-      <a href="#machito">Machito</a><a href="#historia">Mya</a><a href="#galeria">Galería</a><a href="#exclusivo">Exclusivo</a>
-    </nav>
+  <div class="cursor" aria-hidden="true"></div>
+
+  <header class="site-header" id="header">
+    <a class="wordmark" href="#top" aria-label="Mya Abud, inicio">MYA ABUD</a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="menu-panel">
+      <span>MENU</span><i></i><i></i>
+    </button>
   </header>
 
-  <main>
-    <section id="inicio" class="hero">
-      <img class="hero-image" src="assets/images/mya-1.webp" alt="Mya Abud" fetchpriority="high">
+  <nav class="menu-panel" id="menu-panel" aria-hidden="true">
+    <div class="menu-inner">
+      <p class="kicker">THE CHAPTERS</p>
+      <a href="#exist"><b>I</b><span>EXIST</span></a>
+      <a href="#create"><b>II</b><span>CREATE</span></a>
+      <a href="#live"><b>III</b><span>LIVE</span></a>
+      <a href="#desire"><b>IV</b><span>DESIRE</span></a>
+      <a href="#connect"><b>V</b><span>CONNECT</span></a>
+    </div>
+  </nav>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata" poster="assets/images/mya-15.webp">
+        <source src="assets/video/hero.mp4" type="video/mp4">
+      </video>
       <div class="hero-shade"></div>
       <div class="hero-copy reveal">
-        <p class="kicker">ARTISTA · MUJER · LIBERTAD</p>
-        <h1>MYA<br>ABUD</h1>
-        <p class="hero-line">Ella no intenta impresionar.<br><em>Simplemente existe.</em></p>
-        <div class="actions">
-          <a class="btn primary" href="#machito">Descubre MACHITO</a>
-          <a class="btn ghost" href="#exclusivo">Acceso exclusivo</a>
-        </div>
+        <p class="eyebrow">FREEDOM IS NOT AN ACT.</p>
+        <h1>IT IS A WAY<br>OF EXISTING.</h1>
+        <a class="line-link" href="#exist"><span>ENTER</span><i></i></a>
       </div>
-      <a class="scroll" href="#machito" aria-label="Bajar a la siguiente sección">SCROLL <span>↓</span></a>
+      <div class="hero-rail" aria-hidden="true"><span>I</span><span>II</span><span>III</span><span>IV</span><span>V</span></div>
+      <button class="sound-toggle" type="button" aria-pressed="false"><span>SOUND</span><i></i></button>
+      <a class="scroll-cue" href="#exist">SCROLL TO BEGIN <i></i></a>
     </section>
 
-    <section id="machito" class="release section-pad">
-      <div class="release-art reveal"><img src="assets/images/machito-cover.webp" alt="Portada del sencillo Machito de Mya Abud" loading="lazy"></div>
-      <div class="release-copy reveal">
-        <p class="kicker">PRÓXIMO LANZAMIENTO</p>
-        <h2>MACHITO</h2>
-        <p class="lead">Una historia de engaño, traición y comedia con una estética intensa, provocadora y sin concesiones.</p>
-        <p class="date">VIDEO OFICIAL · AGOSTO 13</p>
-        <div class="actions">
-          <a class="btn primary" href="https://www.youtube.com/@myaabudoficial/videos" target="_blank" rel="noopener noreferrer">Ver en YouTube</a>
-          <a class="btn ghost" href="https://open.spotify.com/artist/33obuCE6Ntee0KsfobIzoA?si=xVHz-DWKTb6thZNXvum56g" target="_blank" rel="noopener noreferrer">Escuchar en Spotify</a>
+    <section class="statement section-pad" id="exist">
+      <div class="chapter-label reveal"><span>I</span><p>EXIST — WHO I AM</p></div>
+      <div class="statement-grid">
+        <figure class="portrait tall reveal image-reveal"><img src="assets/images/mya-17.webp" alt="Retrato editorial de Mya Abud" loading="lazy"></figure>
+        <div class="manifesto reveal">
+          <p class="eyebrow">THE SOVEREIGN WOMAN</p>
+          <h2>No vine a cumplir expectativas.</h2>
+          <p>Vine a descubrir quién soy cuando dejo de vivir para la mirada de los demás. Mi sensualidad no es una estrategia. Es la consecuencia natural de una mujer que dejó de pedir permiso para existir.</p>
+          <blockquote>“She doesn't seek attention. She changes the atmosphere.”</blockquote>
         </div>
       </div>
     </section>
 
-    <section id="historia" class="manifesto section-pad">
-      <div class="manifesto-photo reveal"><img src="assets/images/mya-8.webp" alt="Retrato editorial de Mya Abud" loading="lazy"></div>
-      <div class="manifesto-copy reveal">
-        <p class="kicker">LA MUJER DETRÁS DE LA ARTISTA</p>
-        <h2>Su dulzura no es fragilidad.</h2>
-        <p>Mya Abud transforma sensualidad, libertad y carácter en una identidad artística propia. Su presencia no pide permiso: cambia la energía de todo lo que toca.</p>
-        <blockquote>“No vine a encajar. Vine a existir a mi manera.”</blockquote>
+    <section class="music section-pad" id="create">
+      <div class="chapter-label reveal"><span>II</span><p>CREATE — THE STUDIO</p></div>
+      <div class="music-stage">
+        <figure class="cover reveal image-reveal"><img src="assets/images/machito-cover.webp" alt="Portada de Machito de Mya Abud" loading="lazy"></figure>
+        <div class="release-copy reveal">
+          <p class="eyebrow">CURRENT ERA</p>
+          <h2>MACHITO</h2>
+          <p>Una historia de poder, humor y confrontación. Un capítulo donde la actitud no se explica: se impone.</p>
+          <div class="action-row">
+            <a class="button gold" href="https://www.youtube.com/@myaabudoficial/videos" target="_blank" rel="noopener">WATCH</a>
+            <a class="button ghost" href="https://open.spotify.com/artist/33obuCE6Ntee0KsfobIzoA" target="_blank" rel="noopener">SPOTIFY</a>
+            <a class="button ghost" href="https://music.apple.com/us/artist/mya-abud/1667996449" target="_blank" rel="noopener">APPLE MUSIC</a>
+          </div>
+        </div>
+      </div>
+      <div class="spotify reveal">
+        <iframe title="Mya Abud en Spotify" src="https://open.spotify.com/embed/artist/33obuCE6Ntee0KsfobIzoA?utm_source=generator&theme=0" width="100%" height="352" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
       </div>
     </section>
 
-    <section id="galeria" class="gallery section-pad">
-      <div class="section-heading reveal"><p class="kicker">EDITORIAL</p><h2>Una mujer.<br>Muchas versiones.</h2></div>
-      <div class="gallery-grid">
-        <figure class="g tall reveal"><img src="assets/images/mya-2.webp" alt="Mya Abud en sesión fotográfica" loading="lazy"></figure>
-        <figure class="g reveal"><img src="assets/images/mya-3.webp" alt="Mya Abud en sesión fotográfica" loading="lazy"></figure>
-        <figure class="g wide reveal"><img src="assets/images/mya-5.webp" alt="Mya Abud en sesión fotográfica" loading="lazy"></figure>
-        <figure class="g reveal"><img src="assets/images/mya-10.webp" alt="Mya Abud en sesión fotográfica" loading="lazy"></figure>
-        <figure class="g tall reveal"><img src="assets/images/mya-12.webp" alt="Mya Abud en sesión fotográfica" loading="lazy"></figure>
-        <figure class="g reveal"><img src="assets/images/mya-14.webp" alt="Mya Abud en sesión fotográfica" loading="lazy"></figure>
-        <figure class="g wide reveal"><img src="assets/images/mya-16.webp" alt="Mya Abud en sesión fotográfica" loading="lazy"></figure>
-        <figure class="g reveal"><img src="assets/images/mya-19.webp" alt="Mya Abud en sesión fotográfica" loading="lazy"></figure>
+    <section class="gallery section-pad" id="live">
+      <div class="chapter-label reveal"><span>III</span><p>LIVE — THE JOURNEY</p></div>
+      <div class="gallery-head reveal">
+        <p class="eyebrow">MOMENTS</p>
+        <h2>Life, unfiltered.</h2>
+      </div>
+      <div class="editorial-grid">
+        <figure class="g1 reveal image-reveal"><img src="assets/images/mya-12.webp" alt="Mya Abud en sesión editorial" loading="lazy"></figure>
+        <figure class="g2 reveal image-reveal"><img src="assets/images/mya-15.webp" alt="Mya Abud en sesión fotográfica" loading="lazy"></figure>
+        <figure class="g3 reveal image-reveal"><img src="assets/images/mya-13.webp" alt="Retrato de Mya Abud" loading="lazy"></figure>
+        <figure class="g4 reveal image-reveal"><img src="assets/images/mya-16.webp" alt="Mya Abud en escenario" loading="lazy"></figure>
+        <figure class="g5 reveal image-reveal"><img src="assets/images/mya-20.webp" alt="Mya Abud, momento editorial" loading="lazy"></figure>
       </div>
     </section>
 
-    <section id="exclusivo" class="exclusive">
-      <img src="assets/images/mya-17.webp" alt="Mya Abud" loading="lazy">
-      <div class="exclusive-shade"></div>
-      <div class="exclusive-copy reveal">
-        <p class="kicker">MÁS CERCA DE MYA</p>
-        <h2>Descubre el lado que pocos conocen.</h2>
-        <p>Contenido exclusivo, momentos privados y una conexión más cercana conmigo.</p>
-        <a class="btn primary" href="https://onlyfans.com/myaabud" target="_blank" rel="noopener noreferrer">Entrar a mi mundo</a>
+    <section class="private" id="desire">
+      <img class="private-bg" src="assets/images/private.jpg" alt="Mya Abud frente al mar" loading="lazy">
+      <div class="private-shade"></div>
+      <div class="private-copy reveal">
+        <div class="chapter-label"><span>IV</span><p>DESIRE — PRIVATE ROOM</p></div>
+        <p class="eyebrow">SOME STORIES ARE ONLY TOLD IN PRIVATE.</p>
+        <h2>Come closer.</h2>
+        <p>Descubre un lado de Mya reservado para quienes desean conocerla más de cerca.</p>
+        <a class="button ivory" href="https://onlyfans.com/myaabud" target="_blank" rel="noopener">ENTER MY PRIVATE WORLD</a>
       </div>
     </section>
 
-    <section class="social section-pad">
-      <p class="kicker">SIGUE LA HISTORIA</p>
-      <h2>@MYAABUDOFICIAL</h2>
-      <div class="social-links">
-        <a href="https://www.instagram.com/myaabudoficial/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
-        <a href="https://www.tiktok.com/myaabudoficial/" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
-        <a href="https://www.youtube.com/@myaabudoficial/videos" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
-        <a href="https://open.spotify.com/artist/33obuCE6Ntee0KsfobIzoA?si=xVHz-DWKTb6thZNXvum56g" target="_blank" rel="noopener noreferrer">Spotify ↗</a>
-        <a href="https://music.apple.com/us/artist/mya-abud/1667996449" target="_blank" rel="noopener noreferrer">Apple Music ↗</a>
+    <section class="connect section-pad" id="connect">
+      <div class="chapter-label reveal"><span>V</span><p>CONNECT — THE WORLD</p></div>
+      <div class="connect-grid">
+        <div class="contact-copy reveal">
+          <p class="eyebrow">BOOKING & PRESS</p>
+          <h2>Let's create something unforgettable.</h2>
+          <a class="email-link" href="mailto:myaabudoficial@gmail.com">myaabudoficial@gmail.com</a>
+        </div>
+        <div class="social-list reveal">
+          <a href="https://www.instagram.com/myaabudoficial/" target="_blank" rel="noopener"><span>Instagram</span><b>↗</b></a>
+          <a href="https://www.tiktok.com/myaabudoficial/" target="_blank" rel="noopener"><span>TikTok</span><b>↗</b></a>
+          <a href="https://open.spotify.com/artist/33obuCE6Ntee0KsfobIzoA" target="_blank" rel="noopener"><span>Spotify</span><b>↗</b></a>
+          <a href="https://music.apple.com/us/artist/mya-abud/1667996449" target="_blank" rel="noopener"><span>Apple Music</span><b>↗</b></a>
+          <a href="https://www.youtube.com/@myaabudoficial/videos" target="_blank" rel="noopener"><span>YouTube</span><b>↗</b></a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer><span>© 2026 MYA ABUD</span><span>PYROS ENTERTAINMENT</span></footer>
-  <script src="assets/script.js"></script>
+  <footer>
+    <div class="emblem" aria-label="Emblema horizonte de Mya Abud"><span></span><i></i></div>
+    <p class="footer-name">MYA ABUD</p>
+    <div class="values"><span>FREEDOM</span><i>•</i><span>AUTHENTICITY</span><i>•</i><span>FEMININITY</span><i>•</i><span>DESIRE</span><i>•</i><span>ELEGANCE</span></div>
+    <small>© <span id="year"></span> MYA ABUD. ALL RIGHTS RESERVED.</small>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
 </body>
 </html>
